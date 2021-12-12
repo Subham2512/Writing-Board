@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Open Board
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href=".\style.css">
+    </head>
+    <body>
+        <div class="icon-container">
+            <div class="tool" id = "eraser">
+                <img src='.\images\eraser.jpg' height = 40px width = 40px/>
+                <div class="sizes">
+                    <div class="size1"></div>
+                    <div class="size2"></div>
+                    <div class="size3"></div>
+                    <div class="size4"></div>
+                </div>
+            </div>
+            <div class="tool" id = "pencil">
+                <img src='.\images\pencil.png' height = 40px width = 40px/>
+                <div class="sizes">
+                    <div class="size1"></div>
+                    <div class="size2"></div>
+                    <div class="size3"></div>
+                    <div class="size4"></div>
+                </div>
+            </div>
+            <div class="notes">
+                <img src=".\images\sticky-notes.jpg"  height = 40px width = 40px alt="">
+            </div>
+            <div class="tool" id = "rect">
+                <i class="fas fa-square"></i>
+                <div class="sizes">
+                    <div class="size1"></div>
+                    <div class="size2"></div>
+                    <div class="size3"></div>
+                    <div class="size4"></div>
+                </div>
+            </div>
+            <div class="tool" id = "line">
+                <i class="fas fa-grip-lines"></i>
+                <div class="sizes">
+                    <div class="size1"></div>
+                    <div class="size2"></div>
+                    <div class="size3"></div>
+                    <div class="size4"></div>
+                </div>
+            </div>
+            <div class="colors">
+                <div class="orange"></div>
+                <div class="green"></div>
+                <div class="blue"></div>
+            </div>
+        </div>
+        <canvas></canvas>
+        <div class="sticky-note">
+            <div class="navbar">
+                <div class="minimise"></div>
+                <div class="close"></div>
+            </div>
+            <textarea class="textarea"></textarea>
+        </div>
+    </body>
+    <script src = "./board.js"></script>
+</html>
